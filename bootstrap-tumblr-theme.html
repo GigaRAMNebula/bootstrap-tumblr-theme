@@ -10,6 +10,7 @@
     <meta name="text:Application Stylesheet URL" content="" />
     <meta name="if:Show Description On Index" content="1" />
     <meta name="if:Use Responsive Styles" content="1" />
+    <meta name="if:Enable Gist Embed" content="1"/>
 
     <!-- Sharing Buttons -->
     <meta name="if:Show Tweet Button" content="1"/>
@@ -620,6 +621,10 @@
     //]]>
     </script>
     {/block:IfDisqusShortname}
+
+    {block:IfEnableGistEmbed}
+      <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/gist-embed/1.6/gist-embed.min.js"></script>
+    {/block:IfEnableGistEmbed}
 
   </body> 
 </html>
