@@ -6,6 +6,10 @@ code {
 	font-family: 'Anonymous Pro', sans-serif;
 }
 
+.posts {
+	background-color: #E0E0E0;
+	padding: 10px;
+}
 /*font-family: 'Ubuntu Mono', sans-serif;
 font-family: 'Ubuntu', sans-serif;
 font-family: 'Ubuntu Condensed', sans-serif;
